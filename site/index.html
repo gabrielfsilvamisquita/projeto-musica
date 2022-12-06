@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="estilo/img/icon.png" type="image/x-icon">
+    <title>Beepthoven - Gerador de Sonatas Simples</title>
+</head>
+<body>
+    <main>
+        <!--Explicação-->
+        <h1>Beepthoven</h1>
+        <p>Escreva as notas desejadas na música em Cifras, sem utilização de espaços ou qualquer separação. O código irá gerar uma Sonata simples, lembrando da estrutura <strong>Tema 01 + Tema 02, Desenvolvimento, Repetição do Tema 01 + Tema 02, Coda ou Fim</strong>. A altura das notas é de sua preferência, espero que goste =)</p>
+        
+        <!--InputField-->
+        <div class="espaco">
+            <input id="notas" type="text" value="CDEFGAB">
+        </div>
+        <!--Botão-->
+        <button id="gerar">♫</button>
+
+
+        <!--Div da Música-->
+        <div class="espaco" id="musica"></div>
+    </main>
+    <footer><p>Desenvolvido por Gabriel Felipe</p></footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/gerar_sonata.js"></script>
+</body>
+</html>
